@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isKnockedBack; //leave thsi in incase you want to have a knockback system that pushes the player back-- i can take this out if i don't (definitely not necessary)
 
     public GameObject magic;
-    public Transform magicPos;
+    public Transform lookDirection;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -31,10 +31,11 @@ public class PlayerMovement : MonoBehaviour
             input.y = Input.GetAxisRaw("Vertical");
 
             input.Normalize(); //makes diagonal movement speed the same as all other speeds; without it diagonal speed moves faster
-
+            Vector2 futurePosition = new Vector2(transform.position.x + 20, transform.position.y);
+            
             if (Input.GetMouseButtonDown(0))
             {
-                shoot();   
+                shoot(lookDirection.transform.position, futurePosition);
             }
         }
     }
@@ -65,8 +66,19 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    public void shoot()
+    public void shoot(Vector3 shootPosition, Vector3 targetPosition)
     {
-        Instantiate(magic, magicPos.position, Quaternion.identity);
+        GameObject fireball = Instantiate(magic, shootPosition, Quaternion.identity);
+        Vector2 shootDirection = (targetPosition - shootPosition).normalized;
+        
+        if (lookingLeft)
+        {
+            fireball.GetComponent<Fireball>().Setup(-shootDirection, 10f);
+        }
+        else
+        {
+            fireball.GetComponent<Fireball>().Setup(shootDirection, 10f);
+        }
+        
     }
 }
