@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // [SerializeField] private Animator animator;
+    public PlayerHealth playerHealth;
     private Rigidbody2D rb;
 
     public float speed = 10.0f;
@@ -15,6 +16,10 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject magic;
     public Transform lookDirection;
+
+    private int fireballDamage = 1;
+
+    public float timer = 2;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,10 +37,16 @@ public class PlayerMovement : MonoBehaviour
 
             input.Normalize(); //makes diagonal movement speed the same as all other speeds; without it diagonal speed moves faster
             Vector2 futurePosition = new Vector2(transform.position.x + 20, transform.position.y);
-            
+
+            timer += Time.deltaTime;
             if (Input.GetMouseButtonDown(0))
             {
-                shoot(lookDirection.transform.position, futurePosition);
+                if (timer > .5)
+                {
+                    timer = 0;
+                    shoot(lookDirection.transform.position, futurePosition);
+                    playerHealth.ChangeLimit(fireballDamage);
+                }
             }
         }
     }

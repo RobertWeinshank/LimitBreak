@@ -7,7 +7,7 @@ public class Fireball : MonoBehaviour
 
     private bool lookingLeft = false;
 
-    public int damage;
+    public int damage = 1;
     private float timer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -42,11 +42,7 @@ public class Fireball : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             Destroy(gameObject);
+            collision.gameObject.GetComponent<EnemyHealth>().ChangeHealth(-damage);
         }
-        //if (collision.TryGetComponent(out Target target))
-        //{
-        //    //target.Damage();
-        //    Destroy(gameObject);
-        //}
     }
 }

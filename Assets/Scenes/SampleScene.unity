@@ -480,6 +480,7 @@ GameObject:
   - component: {fileID: 1510273879}
   - component: {fileID: 1510273882}
   - component: {fileID: 1510273883}
+  - component: {fileID: 1510273884}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -647,8 +648,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58f5734338e2fed498ffb1ee0a3688e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  startPoint: {fileID: 741835009}
-  endPoint: {fileID: 2057239709}
+--- !u!114 &1510273884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510273878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 958dab98e274510438542ef67ec8c9c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  enemyMovement: {fileID: 1510273883}
+  currentHealth: 2
+  maxHealth: 2
 --- !u!1 &1879572702
 GameObject:
   m_ObjectHideFlags: 0
@@ -3065,9 +3079,10 @@ GameObject:
   - component: {fileID: 2011560411}
   - component: {fileID: 2011560410}
   - component: {fileID: 2011560409}
+  - component: {fileID: 2011560414}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3084,10 +3099,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94a4614616c48c34292f77560d80130b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  playerHealth: {fileID: 2011560414}
   speed: 10
   lookingLeft: 0
   magic: {fileID: 7010965091735077081, guid: aeefb48e8ceadbe489beb891c54b1be2, type: 3}
   lookDirection: {fileID: 112185067}
+  timer: 0
 --- !u!61 &2011560410
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3237,6 +3254,23 @@ Transform:
   - {fileID: 112185067}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2011560414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011560408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25c993755a66f745b0bc6dbdbbaf1fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  playerMovement: {fileID: 2011560409}
+  currentHealth: 5
+  maxHealth: 5
+  currentLimit: 0
+  maxLimit: 10
 --- !u!1 &2057239709
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,4 +9,9 @@ public class EnemyMovement : MonoBehaviour
     {
         transform.position = Vector3.Lerp(pointA, pointB, Mathf.PingPong(Time.time * 0.5f, 1));
     }
+
+    public void enemyKilled()
+    {
+        Destroy(gameObject);
+    }
 }
