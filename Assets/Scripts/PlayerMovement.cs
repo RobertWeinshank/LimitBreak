@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
             timer += Time.deltaTime;
             if (Input.GetMouseButtonDown(0))
             {
-                if (timer > .5)
+                if (timer > .25)
                 {
                     timer = 0;
                     shoot(lookDirection.transform.position, futurePosition);
