@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneChange : MonoBehaviour
 {
+    public GameObject winScreen;
+    
     public string sceneToLoad;
     public Animator fadeAnim;
     public float fadeTime = .5f;
@@ -15,6 +17,7 @@ public class SceneChange : MonoBehaviour
     private void Start()
     {
         //enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        winScreen.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -24,8 +27,9 @@ public class SceneChange : MonoBehaviour
             if (collision.gameObject.tag == "Player")
             {
                 player = collision.transform;
-                fadeAnim.Play("FadeToWhite");
-                StartCoroutine(DelayFade());
+                //fadeAnim.Play("FadeToWhite");
+                //StartCoroutine(DelayFade());
+                winScreen.SetActive(true);
             }
         }
     }

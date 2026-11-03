@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class EnemyShootMagic : MonoBehaviour
 {
+    public EnemyMovement enemyMovement;
+    
     public GameObject magic;
     public Transform magicPos;
 
@@ -19,7 +21,7 @@ public class EnemyShootMagic : MonoBehaviour
     void Update()
     {
 
-        if (player != null)
+        if (player != null && enemyMovement.inChase)
         {
             float distance = Vector2.Distance(transform.position, player.transform.position);
             timer += Time.deltaTime;
