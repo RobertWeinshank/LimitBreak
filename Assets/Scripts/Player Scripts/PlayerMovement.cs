@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // [SerializeField] private Animator animator;
+    [SerializeField] private Animator animator;
     public PlayerHealth playerHealth;
     private Rigidbody2D rb;
 
@@ -21,22 +21,29 @@ public class PlayerMovement : MonoBehaviour
 
     public float timer = 2;
 
+    Vector2 shootPosition;
+    Vector2 futurePosition;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator.SetBool("isIdle", true);
     }
 
     // Update is called once per frame
     void Update()
     {
+        shootPosition = lookDirection.transform.position;
+        futurePosition = new Vector2(transform.position.x + 20, transform.position.y);
+
         if (!isKnockedBack)
         {
             input.x = Input.GetAxisRaw("Horizontal");
             input.y = Input.GetAxisRaw("Vertical");
 
             input.Normalize(); //makes diagonal movement speed the same as all other speeds; without it diagonal speed moves faster
-            Vector2 futurePosition = new Vector2(transform.position.x + 20, transform.position.y);
+            
 
             timer += Time.deltaTime;
             if (Input.GetMouseButtonDown(0))
@@ -44,7 +51,10 @@ public class PlayerMovement : MonoBehaviour
                 if (timer > .25)
                 {
                     timer = 0;
-                    shoot(lookDirection.transform.position, futurePosition);
+                    //shoot();
+                    animator.SetBool("isWalking", false);
+                    animator.SetBool("isIdle", false);
+                    animator.SetBool("isAttacking", true);
                     playerHealth.ChangeLimit(fireballDamage);
                 }
             }
@@ -59,7 +69,9 @@ public class PlayerMovement : MonoBehaviour
 
             if (input.x != 0 || input.y != 0)
             {
-                //animator.SetBool("isRunning", true);
+                animator.SetBool("isIdle", false);
+                animator.SetBool("isWalking", true);
+
                 if (input.x > 0)
                 {
                     //GetComponent<SpriteRenderer>().flipX = false;
@@ -73,14 +85,19 @@ public class PlayerMovement : MonoBehaviour
                     lookingLeft = true;
                 }
             }
+            else if (rb.linearVelocity.x == 0 && rb.linearVelocity.y == 0)
+            {
+                animator.SetBool("isWalking", false);
+                animator.SetBool("isIdle", true);
+            }
         }
     }
 
 
-    public void shoot(Vector3 shootPosition, Vector3 targetPosition)
+    public void shoot()
     {
         GameObject fireball = Instantiate(magic, shootPosition, Quaternion.identity);
-        Vector2 shootDirection = (targetPosition - shootPosition).normalized;
+        Vector2 shootDirection = (futurePosition - shootPosition).normalized;
         
         if (lookingLeft)
         {
@@ -91,5 +108,10 @@ public class PlayerMovement : MonoBehaviour
             fireball.GetComponent<Fireball>().Setup(shootDirection, 10f);
         }
         
+    }
+
+    public void endShoot()
+    {
+        animator.SetBool("isAttacking", false);
     }
 }
