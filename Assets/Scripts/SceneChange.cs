@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class SceneChange : MonoBehaviour
 {
     public GameObject winScreen;
+    public GameObject doorBarrier;
     
     public string sceneToLoad;
     public Animator fadeAnim;
@@ -14,10 +15,21 @@ public class SceneChange : MonoBehaviour
 
     public GameObject[] enemies;
 
+    public Animator doorAnimation;
+
     private void Start()
     {
         //enemies = GameObject.FindGameObjectsWithTag("Enemy");
         winScreen.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if (AllEnemiesDefeated())
+        {
+            doorAnimation.SetBool("isOpened", true);
+            doorBarrier.SetActive(false);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

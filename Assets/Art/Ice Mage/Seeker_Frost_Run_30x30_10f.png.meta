@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: 4478ae643278f2a4284eb7ee91a72600
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4583409407384179422
+    second: Seeker_Frost_Run_30x30_10f_0
+  - first:
+      213: -6254215542670841852
+    second: Seeker_Frost_Run_30x30_10f_1
+  - first:
+      213: -5562148704030895068
+    second: Seeker_Frost_Run_30x30_10f_2
+  - first:
+      213: -3016018232652687717
+    second: Seeker_Frost_Run_30x30_10f_3
+  - first:
+      213: 6473412890222870307
+    second: Seeker_Frost_Run_30x30_10f_4
+  - first:
+      213: 3825143856374414648
+    second: Seeker_Frost_Run_30x30_10f_5
+  - first:
+      213: -2158554765863611301
+    second: Seeker_Frost_Run_30x30_10f_6
+  - first:
+      213: -1405390147359502767
+    second: Seeker_Frost_Run_30x30_10f_7
+  - first:
+      213: 1606447447686745664
+    second: Seeker_Frost_Run_30x30_10f_8
+  - first:
+      213: -2759659002024385340
+    second: Seeker_Frost_Run_30x30_10f_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Seeker_Frost_Run_30x30_10f_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22daeac8d657460c0800000000000000
+      internalID: -4583409407384179422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Run_30x30_10f_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 2
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408a066a9109439a0800000000000000
+      internalID: -6254215542670841852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Run_30x30_10f_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424d65429374fc2b0800000000000000
+      internalID: -5562148704030895068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Run_30x30_10f_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9692ae9563f426d0800000000000000
+      internalID: -3016018232652687717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Run_30x30_10f_4
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f3b2ed9be26d950800000000000000
+      internalID: 6473412890222870307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Run_30x30_10f_5
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 3
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83df6f52214a51530800000000000000
+      internalID: 3825143856374414648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Run_30x30_10f_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54197080e54b02e0800000000000000
+      internalID: -2158554765863611301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Run_30x30_10f_7
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e8dc76b1d0f7ce0800000000000000
+      internalID: -1405390147359502767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Run_30x30_10f_8
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e83bd317f3b4610800000000000000
+      internalID: 1606447447686745664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Run_30x30_10f_9
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4a02b42c8b3b9d0800000000000000
+      internalID: -2759659002024385340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Seeker_Frost_Run_30x30_10f_0: -4583409407384179422
+      Seeker_Frost_Run_30x30_10f_1: -6254215542670841852
+      Seeker_Frost_Run_30x30_10f_2: -5562148704030895068
+      Seeker_Frost_Run_30x30_10f_3: -3016018232652687717
+      Seeker_Frost_Run_30x30_10f_4: 6473412890222870307
+      Seeker_Frost_Run_30x30_10f_5: 3825143856374414648
+      Seeker_Frost_Run_30x30_10f_6: -2158554765863611301
+      Seeker_Frost_Run_30x30_10f_7: -1405390147359502767
+      Seeker_Frost_Run_30x30_10f_8: 1606447447686745664
+      Seeker_Frost_Run_30x30_10f_9: -2759659002024385340
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

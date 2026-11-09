@@ -13,7 +13,7 @@ public class EnemyMovement : MonoBehaviour
     private float attackCooldownTimer;
     private int facingDirection = -1;
 
-    private Animator animator;
+    public Animator animator;
     private Rigidbody2D rb;
     private Transform player;
 
@@ -82,6 +82,8 @@ public class EnemyMovement : MonoBehaviour
                     Flip();
                 }
                 //ChangeState(EnemyState.Attacking);
+                animator.SetBool("isAttacking", true);
+                animator.SetBool("isIdle", false);
             }
 
             else if (Vector2.Distance(transform.position, player.position) >= attackRange)
@@ -93,9 +95,15 @@ public class EnemyMovement : MonoBehaviour
         else
         {
             rb.linearVelocity = Vector2.zero;
-            //ChangeState(EnemyState.Idle);
+            animator.SetBool("isIdle", true);
             inChase = false;
         }
+    }
+
+    public void turnAttackOff()
+    {
+        animator.SetBool("isAttacking", false);
+        animator.SetBool("isIdle", true);
     }
 
     public void enemyKilled()
