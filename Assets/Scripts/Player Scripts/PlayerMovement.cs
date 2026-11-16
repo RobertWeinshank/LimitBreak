@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -113,5 +114,16 @@ public class PlayerMovement : MonoBehaviour
     public void endShoot()
     {
         animator.SetBool("isAttacking", false);
+    }
+
+    public void playerDied()
+    {
+        animator.SetBool("isDead", true);
+    }
+
+    public void playerRespawn()
+    {
+        animator.SetBool("isDead", false);
+        SceneManager.LoadScene("SampleScene");
     }
 }

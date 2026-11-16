@@ -68,11 +68,11 @@ public class EnemyMovement : MonoBehaviour
     private void CheckForPlayer()
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(detectionPoint.position, playerDetectRange, playerLayer);
-
+        //Debug.Log("Checking for player");
         if (hits.Length > 0)
         {
             player = hits[0].transform;
-
+            //Debug.Log("Detected Plyaer");
 
             if (Vector2.Distance(transform.position, player.position) <= attackRange && attackCooldownTimer <= 0)
             {
@@ -82,8 +82,10 @@ public class EnemyMovement : MonoBehaviour
                     Flip();
                 }
                 //ChangeState(EnemyState.Attacking);
-                animator.SetBool("isAttacking", true);
                 animator.SetBool("isIdle", false);
+                animator.SetBool("isAttacking", true);
+                
+                Debug.Log("Attack");
             }
 
             else if (Vector2.Distance(transform.position, player.position) >= attackRange)

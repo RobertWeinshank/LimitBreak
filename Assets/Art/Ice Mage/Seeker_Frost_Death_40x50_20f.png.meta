@@ -1,0 +1,652 @@
+fileFormatVersion: 2
+guid: c341175dfeba79a418a50a6b1513afda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2780032338714834000
+    second: Seeker_Frost_Death_40x50_20f_0
+  - first:
+      213: -3230475237930283551
+    second: Seeker_Frost_Death_40x50_20f_1
+  - first:
+      213: -4985134551502291493
+    second: Seeker_Frost_Death_40x50_20f_2
+  - first:
+      213: -604342130192249980
+    second: Seeker_Frost_Death_40x50_20f_3
+  - first:
+      213: 7405376446283910036
+    second: Seeker_Frost_Death_40x50_20f_4
+  - first:
+      213: 1249634894213556027
+    second: Seeker_Frost_Death_40x50_20f_5
+  - first:
+      213: -6728372055690036886
+    second: Seeker_Frost_Death_40x50_20f_6
+  - first:
+      213: 1746609739474907259
+    second: Seeker_Frost_Death_40x50_20f_7
+  - first:
+      213: 4125275278517800234
+    second: Seeker_Frost_Death_40x50_20f_8
+  - first:
+      213: -8859607709504332779
+    second: Seeker_Frost_Death_40x50_20f_9
+  - first:
+      213: 1099908273787253687
+    second: Seeker_Frost_Death_40x50_20f_10
+  - first:
+      213: 3256802992026476220
+    second: Seeker_Frost_Death_40x50_20f_11
+  - first:
+      213: 3466319996401975246
+    second: Seeker_Frost_Death_40x50_20f_12
+  - first:
+      213: -3943355032756074623
+    second: Seeker_Frost_Death_40x50_20f_13
+  - first:
+      213: -682991992445888269
+    second: Seeker_Frost_Death_40x50_20f_14
+  - first:
+      213: 6964828929957118123
+    second: Seeker_Frost_Death_40x50_20f_15
+  - first:
+      213: 5687469913313575021
+    second: Seeker_Frost_Death_40x50_20f_16
+  - first:
+      213: -3130898930643211925
+    second: Seeker_Frost_Death_40x50_20f_17
+  - first:
+      213: 5976350509313098869
+    second: Seeker_Frost_Death_40x50_20f_18
+  - first:
+      213: 2842236320470427190
+    second: Seeker_Frost_Death_40x50_20f_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054323dcea8a49620800000000000000
+      internalID: 2780032338714834000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed487b03eb0b23d0800000000000000
+      internalID: -3230475237930283551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddfd2ca98e31dab0800000000000000
+      internalID: -4985134551502291493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b8617d802fc97f0800000000000000
+      internalID: -604342130192249980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b0ccc74ae25c660800000000000000
+      internalID: 7405376446283910036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_5
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b372880c058975110800000000000000
+      internalID: 1249634894213556027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_6
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a693ee7834500a2a0800000000000000
+      internalID: -6728372055690036886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_7
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70b3aadd443d3810800000000000000
+      internalID: 1746609739474907259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_8
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d01c8520cef3930800000000000000
+      internalID: 4125275278517800234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_9
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 8
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c9ea97ab95c0580800000000000000
+      internalID: -8859607709504332779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_10
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 6
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b33a985fb8a34f00800000000000000
+      internalID: 1099908273787253687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_11
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbeda23e01d723d20800000000000000
+      internalID: 3256802992026476220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_12
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf7f5fdba7da1030800000000000000
+      internalID: 3466319996401975246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_13
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18743519d736649c0800000000000000
+      internalID: -3943355032756074623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_14
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f893d9c6668586f0800000000000000
+      internalID: -682991992445888269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_15
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba04573b20b08a060800000000000000
+      internalID: 6964828929957118123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_16
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6007cda0c3fdee40800000000000000
+      internalID: 5687469913313575021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_17
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b696c53c200dc84d0800000000000000
+      internalID: -3130898930643211925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_18
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57405d8cf1340f250800000000000000
+      internalID: 5976350509313098869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Death_40x50_20f_19
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6366a59efd6a17720800000000000000
+      internalID: 2842236320470427190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Seeker_Frost_Death_40x50_20f_0: 2780032338714834000
+      Seeker_Frost_Death_40x50_20f_1: -3230475237930283551
+      Seeker_Frost_Death_40x50_20f_10: 1099908273787253687
+      Seeker_Frost_Death_40x50_20f_11: 3256802992026476220
+      Seeker_Frost_Death_40x50_20f_12: 3466319996401975246
+      Seeker_Frost_Death_40x50_20f_13: -3943355032756074623
+      Seeker_Frost_Death_40x50_20f_14: -682991992445888269
+      Seeker_Frost_Death_40x50_20f_15: 6964828929957118123
+      Seeker_Frost_Death_40x50_20f_16: 5687469913313575021
+      Seeker_Frost_Death_40x50_20f_17: -3130898930643211925
+      Seeker_Frost_Death_40x50_20f_18: 5976350509313098869
+      Seeker_Frost_Death_40x50_20f_19: 2842236320470427190
+      Seeker_Frost_Death_40x50_20f_2: -4985134551502291493
+      Seeker_Frost_Death_40x50_20f_3: -604342130192249980
+      Seeker_Frost_Death_40x50_20f_4: 7405376446283910036
+      Seeker_Frost_Death_40x50_20f_5: 1249634894213556027
+      Seeker_Frost_Death_40x50_20f_6: -6728372055690036886
+      Seeker_Frost_Death_40x50_20f_7: 1746609739474907259
+      Seeker_Frost_Death_40x50_20f_8: 4125275278517800234
+      Seeker_Frost_Death_40x50_20f_9: -8859607709504332779
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
