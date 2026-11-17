@@ -13,10 +13,11 @@ public class EnemyMovement : MonoBehaviour
     private float attackCooldownTimer;
     private int facingDirection = -1;
 
-    private Animator animator;
+    public Animator animator;
     private Rigidbody2D rb;
     private Transform player;
 
+    public float enemyHeight;
     public bool inChase = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -63,16 +64,16 @@ public class EnemyMovement : MonoBehaviour
     void Flip()
     {
         facingDirection *= -1;
-        transform.localScale = new Vector3(transform.localScale.x * -1, 1, 1);
+        transform.localScale = new Vector3(transform.localScale.x * -1, enemyHeight, 1);
     }
     private void CheckForPlayer()
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(detectionPoint.position, playerDetectRange, playerLayer);
-
+        //Debug.Log("Checking for player");
         if (hits.Length > 0)
         {
             player = hits[0].transform;
-
+            //Debug.Log("Detected Plyaer");
 
             if (Vector2.Distance(transform.position, player.position) <= attackRange && attackCooldownTimer <= 0)
             {
@@ -82,6 +83,10 @@ public class EnemyMovement : MonoBehaviour
                     Flip();
                 }
                 //ChangeState(EnemyState.Attacking);
+                animator.SetBool("isIdle", false);
+                animator.SetBool("isAttacking", true);
+                
+                Debug.Log("Attack");
             }
 
             else if (Vector2.Distance(transform.position, player.position) >= attackRange)
@@ -93,9 +98,15 @@ public class EnemyMovement : MonoBehaviour
         else
         {
             rb.linearVelocity = Vector2.zero;
-            //ChangeState(EnemyState.Idle);
+            animator.SetBool("isIdle", true);
             inChase = false;
         }
+    }
+
+    public void turnAttackOff()
+    {
+        animator.SetBool("isAttacking", false);
+        animator.SetBool("isIdle", true);
     }
 
     public void enemyKilled()

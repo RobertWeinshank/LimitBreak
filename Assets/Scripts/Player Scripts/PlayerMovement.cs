@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -24,6 +25,8 @@ public class PlayerMovement : MonoBehaviour
     Vector2 shootPosition;
     Vector2 futurePosition;
 
+    Vector2 mouseDirection;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -34,6 +37,9 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        mouseDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        Debug.DrawLine(transform.position, mouseDirection);
+
         shootPosition = lookDirection.transform.position;
         futurePosition = new Vector2(transform.position.x + 20, transform.position.y);
 
@@ -67,23 +73,36 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.linearVelocity = input * speed;
 
+            if (mouseDirection.x > input.x)
+            {
+                GetComponent<SpriteRenderer>().flipX = false;
+                //transform.localScale = new Vector3(1, 1, 1);
+                lookingLeft = false;
+            }
+            else if (mouseDirection.x < input.x)
+            {
+                GetComponent<SpriteRenderer>().flipX = true;
+                //transform.localScale = new Vector3(-1, 1, 1);
+                lookingLeft = true;
+            }
+
             if (input.x != 0 || input.y != 0)
             {
                 animator.SetBool("isIdle", false);
                 animator.SetBool("isWalking", true);
 
-                if (input.x > 0)
-                {
-                    //GetComponent<SpriteRenderer>().flipX = false;
-                    transform.localScale = new Vector3(1, 1, 1);
-                    lookingLeft = false;
-                }
-                else if (input.x < 0)
-                {
-                    //GetComponent<SpriteRenderer>().flipX = true;
-                    transform.localScale = new Vector3(-1, 1, 1);
-                    lookingLeft = true;
-                }
+                //if (mouseDirection.x > input.x )
+                //{
+                //    GetComponent<SpriteRenderer>().flipX = false;
+                //    //transform.localScale = new Vector3(1, 1, 1);
+                //    lookingLeft = false;
+                //}
+                //else if (mouseDirection.x < input.x)
+                //{
+                //    GetComponent<SpriteRenderer>().flipX = true;
+                //    //transform.localScale = new Vector3(-1, 1, 1);
+                //    lookingLeft = true;
+                //}
             }
             else if (rb.linearVelocity.x == 0 && rb.linearVelocity.y == 0)
             {
@@ -97,21 +116,34 @@ public class PlayerMovement : MonoBehaviour
     public void shoot()
     {
         GameObject fireball = Instantiate(magic, shootPosition, Quaternion.identity);
-        Vector2 shootDirection = (futurePosition - shootPosition).normalized;
-        
+        Vector2 shootDirection = (mouseDirection).normalized;
+
+        //fireball.GetComponent<Fireball>().Setup(shootDirection, 10f);
+
         if (lookingLeft)
         {
             fireball.GetComponent<Fireball>().Setup(-shootDirection, 10f);
         }
         else
         {
-            fireball.GetComponent<Fireball>().Setup(shootDirection, 10f);
+            fireball.GetComponent<Fireball>().Setup(-shootDirection, 10f);
         }
-        
+
     }
 
     public void endShoot()
     {
         animator.SetBool("isAttacking", false);
+    }
+
+    public void playerDied()
+    {
+        animator.SetBool("isDead", true);
+    }
+
+    public void playerRespawn()
+    {
+        animator.SetBool("isDead", false);
+        SceneManager.LoadScene("SampleScene");
     }
 }

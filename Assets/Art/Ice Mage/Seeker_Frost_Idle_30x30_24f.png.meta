@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: 2d7bf97e2e730b3428b0b0d0dac770aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8168094431419942185
+    second: Seeker_Frost_Idle_30x30_24f_0
+  - first:
+      213: -9164065732576517194
+    second: Seeker_Frost_Idle_30x30_24f_1
+  - first:
+      213: -4344506427449907947
+    second: Seeker_Frost_Idle_30x30_24f_2
+  - first:
+      213: -4025739328367273233
+    second: Seeker_Frost_Idle_30x30_24f_3
+  - first:
+      213: -9035108602622494109
+    second: Seeker_Frost_Idle_30x30_24f_4
+  - first:
+      213: 3723367668049616229
+    second: Seeker_Frost_Idle_30x30_24f_5
+  - first:
+      213: 5846189736622338142
+    second: Seeker_Frost_Idle_30x30_24f_6
+  - first:
+      213: 4661776543970793167
+    second: Seeker_Frost_Idle_30x30_24f_7
+  - first:
+      213: 318247075172208155
+    second: Seeker_Frost_Idle_30x30_24f_8
+  - first:
+      213: -1818845172512031637
+    second: Seeker_Frost_Idle_30x30_24f_9
+  - first:
+      213: 9174371561163515065
+    second: Seeker_Frost_Idle_30x30_24f_10
+  - first:
+      213: 3749312694435887745
+    second: Seeker_Frost_Idle_30x30_24f_11
+  - first:
+      213: -8590272635537632365
+    second: Seeker_Frost_Idle_30x30_24f_12
+  - first:
+      213: 7424569221657307061
+    second: Seeker_Frost_Idle_30x30_24f_13
+  - first:
+      213: -7546114927063273023
+    second: Seeker_Frost_Idle_30x30_24f_14
+  - first:
+      213: -5881643924370279805
+    second: Seeker_Frost_Idle_30x30_24f_15
+  - first:
+      213: 3556111689672431567
+    second: Seeker_Frost_Idle_30x30_24f_16
+  - first:
+      213: -6934269193468920984
+    second: Seeker_Frost_Idle_30x30_24f_17
+  - first:
+      213: -2801535859389096632
+    second: Seeker_Frost_Idle_30x30_24f_18
+  - first:
+      213: 6286784794893472505
+    second: Seeker_Frost_Idle_30x30_24f_19
+  - first:
+      213: 1218693725528292852
+    second: Seeker_Frost_Idle_30x30_24f_20
+  - first:
+      213: 6499372554567867350
+    second: Seeker_Frost_Idle_30x30_24f_21
+  - first:
+      213: 2803470343523602310
+    second: Seeker_Frost_Idle_30x30_24f_22
+  - first:
+      213: -5421951041359740513
+    second: Seeker_Frost_Idle_30x30_24f_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da3e5b146915ae80800000000000000
+      internalID: -8168094431419942185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3627ff4c2b2d080800000000000000
+      internalID: -9164065732576517194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51562732c6635b3c0800000000000000
+      internalID: -4344506427449907947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea595ef863b128c0800000000000000
+      internalID: -4025739328367273233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a3c919898dc9280800000000000000
+      internalID: -9035108602622494109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d9546ba2f0ca330800000000000000
+      internalID: 3723367668049616229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_6
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50b8ec4796d12150800000000000000
+      internalID: 5846189736622338142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_7
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc690ad4115f1b040800000000000000
+      internalID: 4661776543970793167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_8
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e427a5704aa6400800000000000000
+      internalID: 318247075172208155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_9
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c7cf6c3f922c6e0800000000000000
+      internalID: -1818845172512031637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_10
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4e894b35ae15f70800000000000000
+      internalID: 9174371561163515065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_11
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ab6b7e70c380430800000000000000
+      internalID: 3749312694435887745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_12
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393550b1d8839c880800000000000000
+      internalID: -8590272635537632365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_13
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7ae2bbe5e590760800000000000000
+      internalID: 7424569221657307061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_14
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1fe127470d64790800000000000000
+      internalID: -7546114927063273023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_15
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38233985304306ea0800000000000000
+      internalID: -5881643924370279805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_16
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc71a8c9db8d95130800000000000000
+      internalID: 3556111689672431567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_17
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bb95a68e684cf90800000000000000
+      internalID: -6934269193468920984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_18
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d1893aaf1fe19d0800000000000000
+      internalID: -2801535859389096632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_19
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2d3fe46752f3750800000000000000
+      internalID: 6286784794893472505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_20
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd7c188c7ba9e010800000000000000
+      internalID: 1218693725528292852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_21
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbd0f937e8623a50800000000000000
+      internalID: 6499372554567867350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_22
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f011c8c6de7e620800000000000000
+      internalID: 2803470343523602310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_Frost_Idle_30x30_24f_23
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91813e214c51c4b0800000000000000
+      internalID: -5421951041359740513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Seeker_Frost_Idle_30x30_24f_0: -8168094431419942185
+      Seeker_Frost_Idle_30x30_24f_1: -9164065732576517194
+      Seeker_Frost_Idle_30x30_24f_10: 9174371561163515065
+      Seeker_Frost_Idle_30x30_24f_11: 3749312694435887745
+      Seeker_Frost_Idle_30x30_24f_12: -8590272635537632365
+      Seeker_Frost_Idle_30x30_24f_13: 7424569221657307061
+      Seeker_Frost_Idle_30x30_24f_14: -7546114927063273023
+      Seeker_Frost_Idle_30x30_24f_15: -5881643924370279805
+      Seeker_Frost_Idle_30x30_24f_16: 3556111689672431567
+      Seeker_Frost_Idle_30x30_24f_17: -6934269193468920984
+      Seeker_Frost_Idle_30x30_24f_18: -2801535859389096632
+      Seeker_Frost_Idle_30x30_24f_19: 6286784794893472505
+      Seeker_Frost_Idle_30x30_24f_2: -4344506427449907947
+      Seeker_Frost_Idle_30x30_24f_20: 1218693725528292852
+      Seeker_Frost_Idle_30x30_24f_21: 6499372554567867350
+      Seeker_Frost_Idle_30x30_24f_22: 2803470343523602310
+      Seeker_Frost_Idle_30x30_24f_23: -5421951041359740513
+      Seeker_Frost_Idle_30x30_24f_3: -4025739328367273233
+      Seeker_Frost_Idle_30x30_24f_4: -9035108602622494109
+      Seeker_Frost_Idle_30x30_24f_5: 3723367668049616229
+      Seeker_Frost_Idle_30x30_24f_6: 5846189736622338142
+      Seeker_Frost_Idle_30x30_24f_7: 4661776543970793167
+      Seeker_Frost_Idle_30x30_24f_8: 318247075172208155
+      Seeker_Frost_Idle_30x30_24f_9: -1818845172512031637
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,327 @@
+fileFormatVersion: 2
+guid: f07c721eb29b50a48b5784a5049dd863
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1703023480343234910
+    second: Seeker_VFX_Frost_Charge_Loop_48x48_8f_0
+  - first:
+      213: -4006036277846293518
+    second: Seeker_VFX_Frost_Charge_Loop_48x48_8f_1
+  - first:
+      213: -4783219073921846822
+    second: Seeker_VFX_Frost_Charge_Loop_48x48_8f_2
+  - first:
+      213: 5384466777703617891
+    second: Seeker_VFX_Frost_Charge_Loop_48x48_8f_3
+  - first:
+      213: -5695632083528790470
+    second: Seeker_VFX_Frost_Charge_Loop_48x48_8f_4
+  - first:
+      213: 190376664845758526
+    second: Seeker_VFX_Frost_Charge_Loop_48x48_8f_5
+  - first:
+      213: -8653091825117466414
+    second: Seeker_VFX_Frost_Charge_Loop_48x48_8f_6
+  - first:
+      213: 8619719746376956963
+    second: Seeker_VFX_Frost_Charge_Loop_48x48_8f_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Seeker_VFX_Frost_Charge_Loop_48x48_8f_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 14
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6fdf9ea25ad58e0800000000000000
+      internalID: -1703023480343234910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_VFX_Frost_Charge_Loop_48x48_8f_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 15
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3c4adea33b768c0800000000000000
+      internalID: -4006036277846293518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_VFX_Frost_Charge_Loop_48x48_8f_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 15
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1f30848979e9db0800000000000000
+      internalID: -4783219073921846822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_VFX_Frost_Charge_Loop_48x48_8f_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 15
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3659ae5910879ba40800000000000000
+      internalID: 5384466777703617891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_VFX_Frost_Charge_Loop_48x48_8f_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 16
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ec2f9fbcc05f0b0800000000000000
+      internalID: -5695632083528790470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_VFX_Frost_Charge_Loop_48x48_8f_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30b7a9619a54a200800000000000000
+      internalID: 190376664845758526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_VFX_Frost_Charge_Loop_48x48_8f_6
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 17
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d07903c4da0ae780800000000000000
+      internalID: -8653091825117466414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seeker_VFX_Frost_Charge_Loop_48x48_8f_7
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 16
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32cf73aa0756f9770800000000000000
+      internalID: 8619719746376956963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Seeker_VFX_Frost_Charge_Loop_48x48_8f_0: -1703023480343234910
+      Seeker_VFX_Frost_Charge_Loop_48x48_8f_1: -4006036277846293518
+      Seeker_VFX_Frost_Charge_Loop_48x48_8f_2: -4783219073921846822
+      Seeker_VFX_Frost_Charge_Loop_48x48_8f_3: 5384466777703617891
+      Seeker_VFX_Frost_Charge_Loop_48x48_8f_4: -5695632083528790470
+      Seeker_VFX_Frost_Charge_Loop_48x48_8f_5: 190376664845758526
+      Seeker_VFX_Frost_Charge_Loop_48x48_8f_6: -8653091825117466414
+      Seeker_VFX_Frost_Charge_Loop_48x48_8f_7: 8619719746376956963
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

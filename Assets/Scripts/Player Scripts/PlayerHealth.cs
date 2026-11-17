@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -51,6 +52,7 @@ public class PlayerHealth : MonoBehaviour
             {
                 //playerMovement.playerDied();
                 RemovePlayer();
+                RespawnPlayer();
             }
         }
         else if (amount > 0)
@@ -68,11 +70,22 @@ public class PlayerHealth : MonoBehaviour
         if (currentLimit == maxLimit)
         {
             RemovePlayer();
+            RespawnPlayer();
         }
     }
 
     public void RemovePlayer()
     {
         Destroy(gameObject);
+    }
+
+    public void RespawnPlayer()
+    {
+        //fadeAnim.Play("FadeToWhite");
+        //StartCoroutine(DelayFade());
+        SceneManager.LoadScene("SampleScene");
+        //StartCoroutine(DelayFade());
+        ChangeHealth(maxHealth);
+        ChangeLimit(maxLimit);
     }
 }
