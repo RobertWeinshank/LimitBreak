@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 6a3fedfecc4253d40bc835cece3ac607
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 870318942528700189
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_0
+  - first:
+      213: -2094848709691634832
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_1
+  - first:
+      213: -6130842277017815845
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_2
+  - first:
+      213: 6966440511392747841
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_3
+  - first:
+      213: -8886953671896764627
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_4
+  - first:
+      213: -7425683779055521925
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_5
+  - first:
+      213: -4828980236322478008
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_6
+  - first:
+      213: -6349637583501976140
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_7
+  - first:
+      213: -4037921446633730542
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_8
+  - first:
+      213: -2764433806402171220
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_9
+  - first:
+      213: 2776743176891597721
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_10
+  - first:
+      213: 5004477813778076088
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_11
+  - first:
+      213: 6863325672415793835
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_12
+  - first:
+      213: 7836753740585794778
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_13
+  - first:
+      213: 3282047750262883008
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_14
+  - first:
+      213: -8355421200802299138
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_15
+  - first:
+      213: -145954081400969876
+    second: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 218
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f77b2977ef31c00800000000000000
+      internalID: 870318942528700189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 216
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b05a0923a9de2e0800000000000000
+      internalID: -2094848709691634832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 216
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4f7608e6fdaeaa0800000000000000
+      internalID: -6130842277017815845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 216
+        width: 67
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fe30722fba2f890800000000000000
+      internalID: -7425683779055521925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 120
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848ed926f040cfcb0800000000000000
+      internalID: -4828980236322478008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 120
+        width: 67
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae41548912c2a9d0800000000000000
+      internalID: -2764433806402171220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 120
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9930d132539f88620800000000000000
+      internalID: 2776743176891597721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 120
+        width: 67
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1d0988e0a737540800000000000000
+      internalID: 5004477813778076088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 24
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2992ae55e6f3f50800000000000000
+      internalID: 6863325672415793835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 24
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef24961dfa49b0c80800000000000000
+      internalID: -8355421200802299138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 26
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65a398498779fdf0800000000000000
+      internalID: -145954081400969876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 728d3843f0b76d44eb8d78471ca3ede0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_0: 870318942528700189
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_1: -2094848709691634832
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_10: 2776743176891597721
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_11: 5004477813778076088
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_12: 6863325672415793835
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_13: 7836753740585794778
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_14: 3282047750262883008
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_15: -8355421200802299138
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_16: -145954081400969876
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_2: -6130842277017815845
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_3: 6966440511392747841
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_4: -8886953671896764627
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_5: -7425683779055521925
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_6: -4828980236322478008
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_7: -6349637583501976140
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_8: -4037921446633730542
+      MiniDungeonBoss1Fire_anim_L_v1.0_spritesheet_9: -2764433806402171220
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

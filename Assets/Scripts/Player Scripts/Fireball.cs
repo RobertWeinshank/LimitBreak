@@ -28,13 +28,15 @@ public class Fireball : MonoBehaviour
     public void Setup(Vector2 direction, float force)
     {
         rb = GetComponent<Rigidbody2D>();
+        //rb.AddForce(direction * force, ForceMode2D.Impulse);
+
         if (lookingLeft)
         {
-            rb.AddForce(-direction * force, ForceMode2D.Impulse);
+            rb.AddForce(direction * force, ForceMode2D.Impulse);
         }
         else
         {
-            rb.AddForce(direction * force, ForceMode2D.Impulse);
+            rb.AddForce(-direction * force, ForceMode2D.Impulse);
         }
     }
     void OnTriggerEnter2D(Collider2D collision)

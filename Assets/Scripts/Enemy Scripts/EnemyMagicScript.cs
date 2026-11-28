@@ -7,6 +7,7 @@ public class EnemyMagicScript : MonoBehaviour
 
     public float force;
     public int damage;
+    public bool rotateFireball = false;
 
     private float timer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -17,9 +18,16 @@ public class EnemyMagicScript : MonoBehaviour
 
         Vector3 direction = player.transform.position - transform.position;
         rb.linearVelocity = new Vector2(direction.x, direction.y).normalized * force;
-
-        float rot = Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, rot);
+        if (rotateFireball)
+        {
+            float rot = Mathf.Atan2(-direction.x, direction.y) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0, 0, rot);
+        }
+        else
+        {
+            float rot = Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0, 0, rot);
+        }
     }
 
     // Update is called once per frame

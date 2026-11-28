@@ -1,4 +1,6 @@
+using Microsoft.Extensions.Logging.Abstractions;
 using System.Collections;
+using System.Reflection.PortableExecutable;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -15,7 +17,13 @@ public class SceneChange : MonoBehaviour
 
     public GameObject[] enemies;
 
+    public GameObject healthPotion;
+    public GameObject limitPotion;
+    public Transform potionSpawnPoint;
+
     public Animator doorAnimation;
+
+    private int dropAmount = 1;
 
     private void Start()
     {
@@ -28,6 +36,12 @@ public class SceneChange : MonoBehaviour
         if (AllEnemiesDefeated())
         {
             doorAnimation.SetBool("isOpened", true);
+            if (dropPotion() != null)
+            {
+                Instantiate(dropPotion(), potionSpawnPoint.position, Quaternion.identity);
+            }
+            
+            //dropPotion();
             doorBarrier.SetActive(false);
         }
     }
@@ -56,6 +70,32 @@ public class SceneChange : MonoBehaviour
         }
         return true;
     }
+
+    private GameObject dropPotion()
+    {
+        float randomDrop;
+        if (dropAmount < 0)
+        {
+            return null;           
+        }
+        else
+        {
+            randomDrop = Random.value * 100;
+            if (randomDrop > 50)
+            {
+                Debug.Log(randomDrop + "Health");
+                dropAmount--;
+                return healthPotion;
+            }
+            else
+            {
+                Debug.Log(randomDrop + "Limit");
+                dropAmount--;
+                return limitPotion;
+            }
+        }
+    }
+
 
     IEnumerator DelayFade()
     {

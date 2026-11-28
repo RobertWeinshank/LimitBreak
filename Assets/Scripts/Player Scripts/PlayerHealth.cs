@@ -29,7 +29,7 @@ public class PlayerHealth : MonoBehaviour
         if (currentLimit > 0)
         {
             timer += Time.deltaTime;
-            if (timer > 3)
+            if (timer > 2)
             {
                 timer = 0;
                 ChangeLimit(-1);

@@ -21,9 +21,14 @@ public class PlayerMovement : MonoBehaviour
     private int fireballDamage = 1;
 
     public float timer = 2;
+    public float meditateTimer = 1;
+
+    public bool dashing = false;
 
     Vector2 shootPosition;
     Vector2 futurePosition;
+
+    Vector2 mouseDirection;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -35,6 +40,9 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        mouseDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        Debug.DrawLine(transform.position, mouseDirection);
+
         shootPosition = lookDirection.transform.position;
         futurePosition = new Vector2(transform.position.x + 20, transform.position.y);
 
@@ -47,17 +55,71 @@ public class PlayerMovement : MonoBehaviour
             
 
             timer += Time.deltaTime;
-            if (Input.GetMouseButtonDown(0))
+            meditateTimer += Time.deltaTime;
+            if (!dashing)
             {
-                if (timer > .25)
+                if (Input.GetMouseButtonDown(0))
                 {
-                    timer = 0;
-                    //shoot();
-                    animator.SetBool("isWalking", false);
-                    animator.SetBool("isIdle", false);
-                    animator.SetBool("isAttacking", true);
-                    playerHealth.ChangeLimit(fireballDamage);
+                    if (timer > .15)
+                    {
+                        timer = 0;
+                        //shoot();
+                        animator.SetBool("isDashing", false);
+                        animator.SetBool("isWalking", false);
+                        animator.SetBool("isIdle", false);
+                        animator.SetBool("isCharging", false);
+                        animator.SetBool("isAttacking", true);
+                        //playerHealth.ChangeLimit(fireballDamage);
+                    }
                 }
+            }
+            //if (Input.GetMouseButtonDown(0))
+            //{
+            //    if (timer > .15)
+            //    {
+            //        timer = 0;
+            //        //shoot();
+            //        animator.SetBool("isDashing", false);
+            //        animator.SetBool("isWalking", false);
+            //        animator.SetBool("isIdle", false);
+            //        animator.SetBool("isCharging", false);
+            //        animator.SetBool("isAttacking", true);
+            //        //playerHealth.ChangeLimit(fireballDamage);
+            //    }
+            //}
+            
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                //speed = 50;
+                Debug.Log("penis");
+                animator.SetBool("isWalking", false);
+                animator.SetBool("isIdle", false);
+                animator.SetBool("isCharging", false);
+                animator.SetBool("isAttacking", false);
+                animator.SetBool("isDashing", true);
+            }
+
+
+            if (Input.GetKey(KeyCode.E))
+            {
+                if (meditateTimer > 1)
+                {
+                    meditateTimer = 0;
+                    if (playerHealth.currentLimit > 0)
+                    {
+                        animator.SetBool("isDashing", false);
+                        animator.SetBool("isWalking", false);
+                        animator.SetBool("isIdle", false);
+                        animator.SetBool("isAttacking", false);
+                        animator.SetBool("isCharging", true);
+                        playerHealth.ChangeLimit(-1);
+                    }
+                    //Debug.Log("!");
+                }
+            }
+            else
+            {
+                animator.SetBool("isCharging", false);
             }
         }
     }
@@ -68,23 +130,36 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.linearVelocity = input * speed;
 
+            if (mouseDirection.x > input.x)
+            {
+                GetComponent<SpriteRenderer>().flipX = false;
+                //transform.localScale = new Vector3(1, 1, 1);
+                lookingLeft = false;
+            }
+            else if (mouseDirection.x < input.x)
+            {
+                GetComponent<SpriteRenderer>().flipX = true;
+                //transform.localScale = new Vector3(-1, 1, 1);
+                lookingLeft = true;
+            }
+
             if (input.x != 0 || input.y != 0)
             {
                 animator.SetBool("isIdle", false);
                 animator.SetBool("isWalking", true);
 
-                if (input.x > 0)
-                {
-                    //GetComponent<SpriteRenderer>().flipX = false;
-                    transform.localScale = new Vector3(1, 1, 1);
-                    lookingLeft = false;
-                }
-                else if (input.x < 0)
-                {
-                    //GetComponent<SpriteRenderer>().flipX = true;
-                    transform.localScale = new Vector3(-1, 1, 1);
-                    lookingLeft = true;
-                }
+                //if (mouseDirection.x > input.x )
+                //{
+                //    GetComponent<SpriteRenderer>().flipX = false;
+                //    //transform.localScale = new Vector3(1, 1, 1);
+                //    lookingLeft = false;
+                //}
+                //else if (mouseDirection.x < input.x)
+                //{
+                //    GetComponent<SpriteRenderer>().flipX = true;
+                //    //transform.localScale = new Vector3(-1, 1, 1);
+                //    lookingLeft = true;
+                //}
             }
             else if (rb.linearVelocity.x == 0 && rb.linearVelocity.y == 0)
             {
@@ -98,24 +173,41 @@ public class PlayerMovement : MonoBehaviour
     public void shoot()
     {
         GameObject fireball = Instantiate(magic, shootPosition, Quaternion.identity);
-        Vector2 shootDirection = (futurePosition - shootPosition).normalized;
-        
+        Vector2 shootDirection = (mouseDirection).normalized;
+
+        //fireball.GetComponent<Fireball>().Setup(shootDirection, 10f);
+
         if (lookingLeft)
         {
             fireball.GetComponent<Fireball>().Setup(-shootDirection, 10f);
         }
         else
         {
-            fireball.GetComponent<Fireball>().Setup(shootDirection, 10f);
+            fireball.GetComponent<Fireball>().Setup(-shootDirection, 10f);
         }
-        
+
+    }
+
+    public void increaseSpeed()
+    {
+        speed = 15;
+        dashing = true;
+    }
+    public void resetSpeed()
+    {
+        speed = 10;
+        animator.SetBool("isDashing", false);
+        dashing = false;
     }
 
     public void endShoot()
     {
         animator.SetBool("isAttacking", false);
     }
-
+    public void endCharge()
+    {
+        animator.SetBool("isCharging", false);
+    }
     public void playerDied()
     {
         animator.SetBool("isDead", true);

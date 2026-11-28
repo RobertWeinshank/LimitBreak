@@ -17,6 +17,7 @@ public class EnemyMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Transform player;
 
+    public float enemyHeight;
     public bool inChase = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -63,7 +64,7 @@ public class EnemyMovement : MonoBehaviour
     void Flip()
     {
         facingDirection *= -1;
-        transform.localScale = new Vector3(transform.localScale.x * -1, 1, 1);
+        transform.localScale = new Vector3(transform.localScale.x * -1, enemyHeight, 1);
     }
     private void CheckForPlayer()
     {

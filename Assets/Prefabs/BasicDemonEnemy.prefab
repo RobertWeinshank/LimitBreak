@@ -217,6 +217,7 @@ MonoBehaviour:
   attackCooldown: 1
   attackRange: 1.5
   animator: {fileID: 8501313781326508930}
+  enemyHeight: 1
   inChase: 0
 --- !u!114 &6021075104276794232
 MonoBehaviour:
@@ -664,7 +665,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!114 &2986064150796150071
 MonoBehaviour:
